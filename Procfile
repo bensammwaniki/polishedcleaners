@@ -1,3 +1,3 @@
-web: gunicorn CleaningAgency.wsgi:application --log-file - --log-level debug
+web: gunicorn cleaningagency.wsgi:application --log-file - --log-level debug
 python manage.py collectstatic --noinput
 manage.py migrate
