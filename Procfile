@@ -1,1 +1,1 @@
-web: gunicorn cleaningagency.wsgi
+web: gunicorn django_project.wsgi
